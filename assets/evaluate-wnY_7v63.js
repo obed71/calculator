@@ -1,0 +1,1 @@
+import{_ as n}from"./index-CYgA6i_v.js";let t;(async function(){t=await n(()=>import("./index-B14xhjzq.js"),[])})();function i(e){const{evaluate:o}=t;try{const r=o(e);return typeof r=="function"?"Error: Expression is a function, please provide an argument.":r}catch{return"Error!"}}export{i as calculate};
