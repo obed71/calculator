@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+.input,
+.btn {
+  padding: 0.5rem;
+  font-size: large;
+  border: 3px solid gray;
+}
+
+.input {
+  outline: none;
+}
+
+.btn {
+  background-color: rgb(233, 233, 233);
+  border-radius: 5px;
+  font-weight: bold;
+  transition: box-shadow linear 0.15s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 6px gray inset, -6px -6px 6px white inset;
+}
